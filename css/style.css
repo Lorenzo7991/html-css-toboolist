@@ -8,27 +8,49 @@
 
 
 /* generics */
+body{
+    background-color: dimgray;
+}
+
+.button-container{
+    max-width: 600px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.list-container{
+    max-width: 600px;
+    height: 490px;
+    margin: auto;
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 0 0 1.5% 1.5%;
+}
+
 .container {
     max-width: 1080px;
     margin: auto;
 }
 
-.grey-container{
-    max-width: 1080px;
-    margin: auto;
-    background-color: dimgray;
+.list-container{
+
+    
 
 }
 
 /* header */
  header{
-    background-color: wheat;
-    font-family: 'Kanit', sans-serif;;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 10px;
 }
 
 #logo {
     vertical-align: middle;
-    align: left;w
+    padding-left: 15px;
 }
 
 h1 {
