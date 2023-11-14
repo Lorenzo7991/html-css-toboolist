@@ -1,3 +1,40 @@
-body{
-    background-color: blue;
+/* css reset */
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
 }
+
+
+/* generics */
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.grey-container{
+    max-width: 1080px;
+    margin: auto;
+    background-color: dimgray;
+
+}
+
+/* header */
+ header{
+    background-color: wheat;
+    font-family: 'Kanit', sans-serif;;
+}
+
+#logo {
+    vertical-align: middle;
+    align: left;w
+}
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+/* main */
