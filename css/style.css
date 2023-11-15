@@ -13,6 +13,13 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 
+ul{
+    list-style: none;
+}
+
+h3{
+    margin-top: 20px;
+}
 
 /* utils */
 .container{
@@ -21,14 +28,13 @@ body{
 }
 
 
-
 /* header */
 header{
     background-color: white;
     padding-bottom: 5px;
     padding-top: 5px;
     padding-left: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 #logo {
@@ -46,7 +52,7 @@ h1 {
 /* main */
 .card{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .card-top{
@@ -56,9 +62,11 @@ h1 {
 
 .card-bottom{
     padding: 25px 35px;
+    padding-top: 0px;
+    padding-bottom: 15px;
 }
 
-/* btn layout commands */
+/* btn layout */
 .btn{
     cursor: pointer;
     border-radius: 5px;
@@ -79,4 +87,70 @@ h1 {
     color: dimgray;
     background-color: white;
     border-color: currentColor
+}
+
+/* list layout */
+.task-obj{
+    height: 40px;
+    line-height: 40px;
+}
+
+.task-status{
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    line-height: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.task-text{
+    vertical-align: middle;
+}
+
+.task-status.task-done{
+    color: green;
+}
+
+.task-status.task-undone{
+    color: red;
+}
+
+/* badge layout */
+.badge{
+    color: white;
+    background-color: gray;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+
+}
+
+.bg-blue{
+    background-color: cornflowerblue;
+}
+
+.bg-purple{
+    background-color:purple;
+}
+
+.bg-green{
+    background-color: aquamarine;
+}
+
+.bg-orange
+    background-color: orange;
+}
+
+.bg-pink{
+    background-color: palevioletred;
+}
+
+.bg-gold{
+    background-color: goldenrod;
 }
