@@ -9,20 +9,32 @@
 
 /* generics */
 body{
-    background-color: dimgray;
+    background-color: rgb(240, 229, 229);
+    font-family: 'Kanit', sans-serif;
 }
+
+
+/* utils */
+.container{
+    width: 50%;
+    margin: auto;
+}
+
 
 
 /* header */
 header{
     background-color: white;
-    font-family: 'Kanit', sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 35px;
 }
 
 #logo {
     vertical-align: middle;
-    padding-left: 15px;
+    height: 50px;
+    
 }
 
 h1 {
@@ -32,42 +44,39 @@ h1 {
 }
 
 /* main */
-
-#button-container{
-    max-width: 600px;
-    height: 40px;
-    margin: auto;
-    margin-top: 20px;
+.card{
     background-color: white;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
-.button-task{
-  color: white;
-  background-color: cornflowerblue;
-  text-decoration: none;
-  padding: 5px;
-  margin: 5px;
-  margin-left: 5px;
-  margin-right: 1px;
-  font-size: 15px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  vertical-align: middle;
+.card-top{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(240, 229, 229);
 }
 
-.button-section{
-    color: cornflowerblue;
+.card-bottom{
+    padding: 25px 35px;
+}
+
+/* btn layout commands */
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
     background-color: white;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px;
-    margin-left: 2px;
-    font-size: 15px;
-    border-radius: 4px;
-    border-color: cornflowerblue;
-    border-width: 1px;
-    cursor: pointer; 
-    vertical-align: middle; 
-  }
+    border: 1px solid transparent;
+
+}
+
+.btn-task{
+    color: white;
+    background-color: cornflowerblue;
+    border-color: currentColor;
+}
+
+.btn-section{
+    color: dimgray;
+    background-color: white;
+    border-color: currentColor
+}
