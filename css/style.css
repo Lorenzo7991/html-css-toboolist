@@ -128,29 +128,28 @@ h1 {
     border-radius: 10px;
     padding: 5px 10px;
     vertical-align: middle;
-
 }
 
-.bg-blue{
+.bkg-blue{
     background-color: cornflowerblue;
 }
 
-.bg-purple{
+.bkg-purple{
     background-color:purple;
 }
 
-.bg-green{
+.bkg-green{
     background-color: aquamarine;
 }
 
-.bg-orange
-    background-color: orange;
+.bkg-orange{
+    background-color:orange
 }
 
-.bg-pink{
+.bkg-pink{
     background-color: palevioletred;
 }
 
-.bg-gold{
+.bkg-gold{
     background-color: goldenrod;
 }
